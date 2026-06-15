@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>CLICKBAITOMETR</h2>
+  
+  <div class="container">
+    <div class="gauge-wrapper">
+        <svg id="gauge" viewBox="0 0 200 125">
+        <g id="gaugeSegments"></g>
+        <line
+          id="needle"
+          x1="100" y1="100" x2="100" y2="25"
+          stroke="#0f172a" stroke-width="8" stroke-linecap="round"
+          transform="rotate(-90 100 100)"
+        />
+        <circle cx="100" cy="100" r="11" fill="#0f172a" />
+        <circle cx="100" cy="100" r="5" fill="#334155" />
+      </svg>
+    </div>
+
+    <div id="scoreText">0%</div>
+    <div id="labelText">Gotowy do analizy</div>
+  </div>
+
+  <button id="analyzeBtn">Analizuj tę stronę</button>
+  <button id="clearBtn">Wyczyść pamięć wtyczki</button>
+  
+  <p id="result">Kliknij przycisk, aby sprawdzić tekst na tej stronie.</p>
+  
+  <script src="popup.js"></script> 
+</body>
+</html>

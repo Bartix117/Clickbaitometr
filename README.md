@@ -4,7 +4,7 @@
 
 A modern, secure browser extension built to detect clickbait and emotional manipulation in web articles. Featuring a lightweight Vanilla JS frontend with an advanced DOM scraping algorithm and a robust, serverless Vercel backend. The system leverages the Groq API (LLaMA 3.1) to deliver real-time manipulation scores, detailed objective analysis, and factual article summaries.
 
-![App Screenshot 1](<img width="441" height="590" alt="Zrzut ekranu 2026-06-15 124620" src="https://github.com/user-attachments/assets/2a37bfa4-0c5d-49c9-99cf-f3ef7907bdb3" />)
+![App Screenshot 1](https://github.com/user-attachments/assets/2a37bfa4-0c5d-49c9-99cf-f3ef7907bdb3)
 
 ## ✨ Features
 
